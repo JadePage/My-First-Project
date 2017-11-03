@@ -1,0 +1,199 @@
+@import 'vendors/_bootstrap.scss';
+
+/* Variables */
+
+$primary-color: #3b5a76;
+$background-color: #ededed; 
+$text-color: #363636;
+$font: 16px;
+
+/* Main tags */
+body{
+	padding-bottom: 0;
+	font-family: 'Open Sans', Arial, Tahoma;
+	color: $text-color;
+	background-color: #000;
+	background: url("../img/code.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+h2,h3{
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	font-size: 1.5em;
+}
+
+
+/* All h2,h3 headers set to primary color */
+strong, h2, h3{
+	color: $primary-color;
+}
+
+/* Main Container */
+.container-main{
+	background: #fff;
+	margin-top: 80px;
+	padding: 0 30px 30px 30px;
+	box-shadow: 1px 1px 5px 2px  #888888;
+	-webkit-box-shadow: 1px 1px 5px 2px  #888888;
+	-moz-box-shadow: 1px 1px 5px 2px  #888888;
+	-o-box-shadow: 1px 1px 5px 2px  #888888;
+}
+
+/* Header Section */
+header{
+	min-height: 100px;
+	overflow: none;
+}
+
+header h1{
+	margin-top: 40px;
+	padding:  0 0 0;
+	font-size: 2.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-bottom: 0px;	
+}
+
+.profile-img{
+	width: 260px;
+	display: block;
+	margin: auto;
+	margin-top: -65px;
+	
+}
+
+.line{
+	max-width: 100%;
+}
+
+/* Contact List Section */
+.contact-list{
+	padding: 0;
+	margin: 0;
+}
+
+.contact-list li{
+	list-style: none;
+	font-weight: bold;
+	line-height: 3.2em;
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+.contact-list span{
+	display: block;
+	margin: 0;
+	padding: 0;
+	line-height: 0.1em;
+	margin-left: 37px;
+	font-size: 15px;
+	color: #ccc;
+}
+
+/* Education Section */
+.media{
+	background: $background-color;
+	padding: 10px
+}
+.work-list li img{
+	width: 200px;
+	margin-top: 30px;
+	padding-top: -50px;
+}
+
+.my-store img{
+	margin-top:-6px !important;
+	padding-bottom: 0;
+}
+
+.jp-theme img{
+	margin-top: -10px !important;
+	padding-bottom: 0;
+}
+
+.wicked-agency{
+	margin-top: -20px !important;
+}
+
+/* Project Section */
+.work-list li{
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 10px;
+	margin-bottom: 30px;
+}
+
+/*Image animation */
+.work-list li img{
+	width: 200px;
+	margin-top: 30px;
+	padding-top: -50px;
+}
+
+.my-store img{
+	margin-top:-6px !important;
+	padding-bottom: 0;
+}
+
+.jp-theme img{
+	margin-top: -10px !important;
+	padding-bottom: 0;
+}
+
+.wicked-agency{
+	margin-top: -20px !important;
+}
+
+footer{
+	
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.service-text{
+	font-size: 18px;
+}
+
+
+/*Img animations */
+.img-rotate{
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+}
+
+.img-rotate:hover{
+ transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+  
+}
+
+ .img-zoom:hover{
+ transition: all .2s ease-in-out; 
+ transform: scale(1.1); 
+ -webkit-transition: all .2s ease-in-out; 
+  -webkit-transform: scale(1.1); 
+  -ms-transition: all .2s ease-in-out;
+ -ms-transform: scale(1.1);  
+}
+
+/* Badge */
+.badge-mta img{
+	height: 250px;
+	width: 250px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
